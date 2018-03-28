@@ -30,7 +30,7 @@ public class AlienSql {
 		List<Alien> aliens = new ArrayList<>();
 		try {
 			Statement st = con.createStatement();
-			ResultSet rs = st.executeQuery("select * from city LIMIT 2");
+			ResultSet rs = st.executeQuery("select * from city LIMIT 3");
 			while (rs.next()) {
 				Alien a = new Alien();
 
