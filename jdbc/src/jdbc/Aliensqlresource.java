@@ -31,6 +31,7 @@ public class Aliensqlresource {
 	@POST
 	@Path("/aliencreate")
 	@Produces("application/xml")
+	@Produces("application/json")
 	public Alien createAlien(Alien a1) {
 		System.out.println(a1);
 		repo.create(a1);
