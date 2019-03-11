@@ -28,12 +28,12 @@ public class Aliensqlresource {
 		return repo.getAlien(id);
 	}
 
-	/*@POST
+	@POST
 	@Path("/aliencreate")
 	@Produces("application/xml")
 	public Alien createAlien(Alien a1) {
 		System.out.println(a1);
 		repo.create(a1);
 		return a1;
-	}*/
+	
 }
